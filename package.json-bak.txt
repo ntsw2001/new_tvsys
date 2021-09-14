@@ -1,0 +1,14 @@
+  "postcss": {
+    "plugins": {
+      "postcss-pxtorem": {
+        "rootValue": 192,
+        "minPixelValue": 12,
+        "propList": [
+          "*"
+        ],
+        "selectorBlackList": [
+          "el-*"
+        ]
+      }
+    }
+  }
