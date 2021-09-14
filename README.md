@@ -1,5 +1,5 @@
 # new_tvsys
-本项目是基于tvsys（ https://github.com/ntsw2001/tvsys ）项目的个人改进版，主要重写了前端，并且对后端做了一定的优化。<br>
+本项目是基于 tvsys（ https://github.com/ntsw2001/tvsys ）项目的个人改进版，主要重写了前端，并且对后端做了一定的优化。<br>
 2021.09.14<br>
 V 1.0.1
 
