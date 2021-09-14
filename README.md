@@ -44,7 +44,7 @@ cd backend
 pip install -r requirements.txt
 ```
 
-### 编译与热部署
+### 编译到开发环境与热部署
 ```
 npm run serve
 ```
