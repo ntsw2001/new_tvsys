@@ -47,7 +47,7 @@
               <el-date-picker type="month" placeholder="选择最晚投入使用日期" v-model="queryForm.d_date_end" style="width: 210px;" :picker-options="pickerOptions" value-format="yyyy-MM-01"></el-date-picker>
             </el-form-item>
             <el-form-item label="备注" label-width="61.1px" style="padding-left: 24px; margin-bottom: 0px;">
-              <el-input v-model="queryForm.d_others" clearable style="width: 554px;"></el-input>
+              <el-input v-model="queryForm.d_others" clearable style="width: 552px;"></el-input>
             </el-form-item>
           </el-form>
         </div>
@@ -433,7 +433,7 @@ export default {
       this.closeSearch();
     });
 
-    // 监听窗口大小变化，自适应表格容器高度；勿忘注销，否则切换到别的页面会报错
+    // 监听窗口大小变化，自适应表格容器高度；勿忘注销( destroyed() )，否则切换到别的页面会报错
     let that = this;
     window.onresize = () => {
       return (() => {

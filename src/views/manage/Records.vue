@@ -48,7 +48,7 @@
             <el-date-picker type="datetime" placeholder="选择最晚归还日期" v-model="queryForm.r_date_end" value-format="yyyy-MM-dd HH:mm:ss" class="query-date1"></el-date-picker>
           </el-form-item>
           <el-form-item label="归还地点" label-width="85px" style="margin-bottom: 0px; margin-left: 25px;">
-            <el-input v-model="queryForm.r_place" clearable style="width: 540px;"></el-input>
+            <el-input v-model="queryForm.r_place" clearable style="width: 537px;"></el-input>
           </el-form-item>
         </el-form>
       </el-card>
@@ -662,13 +662,13 @@ export default {
   width: 239.755px;
 }
 .query-date2 {
-  width: 244.155px;
+  width: 241px;
 }
 .query-input1 {
   width: 210px;
 }
 .query-input2 {
-  width: 240px;
+  width: 239px;
 }
 .table-footer {
   flex: 1;

@@ -44,7 +44,7 @@
             <el-date-picker type="month" placeholder="选择最晚投入使用日期" v-model="queryForm.d_date_end" style="width: 210px;" :picker-options="pickerOptions" value-format="yyyy-MM-01"></el-date-picker>
           </el-form-item>
           <el-form-item label="备注" label-width="61.1px" style="padding-left: 24px; margin-bottom: 0px;">
-            <el-input v-model="queryForm.d_others" clearable style="width: 554px;"></el-input>
+            <el-input v-model="queryForm.d_others" clearable style="width: 551px;"></el-input>
           </el-form-item>
         </el-form>
       </el-card>
