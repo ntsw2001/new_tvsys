@@ -3,7 +3,7 @@ import auth from './auth';
 import router from '../router/index'
 
 // baseURL：后端IP
-const BASE_URL = 'https://api2.clax.xyz/';
+const BASE_URL = 'http://127.0.0.1:8000/';
 
 class Http {
   constructor() {
